@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ホームページの作り方</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <p>今好きな曲です</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OeRYMeZk5vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <h1>ホームページの作り方。071421 USNL</h1>
+        <p>今回は、 <a target="_blank" href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web">このページ</a>を参考にして簡単なウェブページを作成した。</p>
+        
+        <h2>1.何を作るか決める</h2>
+        <p>今の自分に作れるのは画像やハイパーリンクで飾り立てた文章だ。よって</p>
+
+        <ul>
+            <li>どんなフォントを使うか</li>
+            <li>何について書くか</li>
+            <li>どんな構成で書くか</li>
+            <li>どの画像をどこに置くのか</li>
+            <li>エトセトラ・エトセトラ</li>
+        </ul>
+
+        <p>を考え、紙にでも書き出しておく。</p>
+
+        <h2>2.ファイル/フォルダを作成する</h2>
+        <p>ウェブページを構成するファイル/フォルダを決まり通りに作成する。今回は以下の通り。</p>
+
+        <img class="normal" src="images/structure.jpg" alt="file/folder structure">
+        
+        <h2>3.HTMLを書く</h2>
+        <p>書き方には型がある(らしい)ので、その通りにまずは文章を書く。</p>
+
+        <img class="normal" src="images/html.jpg" alt="html structure">
+        
+        <p>＜head＞＜/head＞の間に見せたくないが必要なものを書く。＜body＞＜/body＞の間に見せたいものを全て書く。この画像の場合画像を差し込んでいる。</p>
+
+        <h2>4.CSSを書く</h2>
+        <p>ページをどんな見た目にしたいかをCSSファイルに書き記す。</p>
+
+        <img class="normal" src="images/css-declaration-small.png" alt="css-declaration">
+
+        <p>pの｛色は：赤色だ；｝という意味になる。この調子でページの姿形を決定していく。</p>
+
+        <h2>5.JavaScriptを書く</h2>
+        <p>ページの内容、姿形を決めてから、どこをどんなふうに動かすか考える。特に思いつかないので、今回は<a target="_blank" href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/JavaScript_basics">参考にしたページ</a>に従ってクリックすると入れ替わる画像を下に追加した(蛇足?)。</p>
+
+        <img class="guitar" src="images/music_guitar_boroboro.png" alt="壊れそうなギター">
+
+        <img class="normal" src="images/javascript-ex.jpg" alt="javascriptの本文">
+
+        <h2>6.GitHubを利用してウェブサイトを公開する</h2>
+        <p>現時点では、"GitHub=ウェブサイトをお手軽に公開できるサイト"位の認識だ。アカウントを登録して、リポジトリを作成して、作ったファイルをコピーアンドペーストして、設定からウェブサイトを公開する。</p>
+
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
